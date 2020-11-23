@@ -1,0 +1,286 @@
+
+
+/* 
+CUI Theme
+*/
+
+#custom .cui-application-name {
+    display:none;
+}
+
+#custom .cui-application-name.block {
+    display:block;
+}
+
+#custom .cui-application-title:before {
+    content: 'UTEP Single Sign On'
+}
+
+#custom .cui-application-title {
+    color: #fff
+}
+
+#custom .cui-masthead {
+    background: none repeat scroll 0 0 #041E42;
+    color: #fff;
+}
+
+#custom .cui-masthead .cui-masthead-break {
+    background-color: #262626;
+}
+
+#custom .cui-masthead .cui-drawer.cui-drawer-showing {
+    background: none repeat scroll 0 0 #ff8400;
+}
+
+#custom .cui-masthead .cui-application-title a,
+#custom .cui-masthead .cui-masthead-controls .cui-button {
+    color: #fff;
+}
+
+#custom .cui-button.cui-button-type-primary:not([disabled="disabled"]),
+#custom .cui-button.cui-button-type-primary:active:not([disabled="disabled"]),
+#custom .cui-button.cui-button-type-primary:focus:not([disabled="disabled"])
+#custom .cui-table tbody tr.selected,
+#custom .cui-table tbody tr.selected:hover {
+    color: #fff;
+    background-color: #041E42;
+}
+
+#custom .cui-masthead-controls .cui-button:not(.cui-button-type-primary):active:not([disabled="disabled"]),
+#custom .cui-masthead-controls .cui-button:not(.cui-button-type-primary):focus:not([disabled="disabled"]) {
+    color: #262626;
+}
+
+#custom a.applink .applinklink h3,
+#custom .cui-modal .cui-remove,
+#custom .cui-button:not(.cui-button-type-primary):active:not([disabled="disabled"]),
+#custom .cui-button:not(.cui-button-type-primary):focus:not([disabled="disabled"]),
+#custom .section-controls span:focus,
+#custom .section-controls a[cui-icon]:focus,
+#custom .icon-ctrl:focus,
+#custom .cui-checkbox input[type="checkbox"] + span:hover,
+#custom .cui-checkbox input[type="checkbox"] + span:focus,
+#custom .cui-checkbox input[type="checkbox"]:checked + span {
+    color: #041E42;
+}
+
+#custom .cui-menu .cui-menu-item:hover,
+#custom .cui-menu .cui-menu-item:focus,
+#custom .cui-table tbody tr:hover,
+#custom .cui-modal .cui-remove:hover,
+#custom .cui-modal .cui-remove:focus,
+#custom .icon-ctrl:focus,
+#custom .section-controls a[cui-icon]:focus,
+#custom ul#camBreadcrumbs.cui-breadcrumb a:focus,
+#custom .cui-tooltip-icon:focus {
+    background: none repeat scroll 0 0 #041E42;
+	color:#fff;
+}
+
+#custom ul#camBreadcrumbs.cui-breadcrumb, 
+#custom ul#camBreadcrumbs.cui-breadcrumb a {
+    color: #041E42;
+}
+
+#custom ul#camBreadcrumbs.cui-breadcrumb a:hover {
+    background-color: #041E42;
+	color: #fff;
+}
+
+#custom ul#camBreadcrumbs.cui-breadcrumb a[ng-href=""] {
+	color: #041E42
+}
+#custom ul#camBreadcrumbs.cui-breadcrumb a[ng-href=""]:hover {
+    color: #fff;
+}
+
+#custom .cui-textbox:focus,
+#custom .cui-textarea:focus,
+#custom .cui-drop-down-list:focus {
+    border: 1px solid #041E42;
+    box-shadow: 0 0 4px #01234d inset;
+}
+
+#custom .cui-masthead-controls .cui-button.cui-button-type-primary:active:not([disabled="disabled"]):after,
+#custom .cui-masthead-controls .cui-button.cui-button-type-primary:focus:not([disabled="disabled"]):after,
+#custom .cui-masthead-controls .cui-button:active:not([disabled="disabled"]):not(.cui-button-type-transparent):after,
+#custom .cui-masthead-controls .cui-button:focus:not([disabled="disabled"]):not(.cui-button-type-transparent):after {
+    border:1px solid #262626;
+}
+
+#custom .cui-button:active:not([disabled="disabled"]):not(.cui-button-type-transparent):after,
+#custom .cui-button:focus:not([disabled="disabled"]):not(.cui-button-type-transparent):after {
+    border: 1px solid #041E42;
+}
+
+#custom .cui-button.cui-button-type-primary:active:not([disabled="disabled"]):after,
+#custom .cui-button.cui-button-type-primary:focus:not([disabled="disabled"]):after {
+    border: 1px solid #FFFFFF;
+}
+
+#custom cui-tooltip.helptooltip {
+    color: #041E42;
+}
+
+#custom .cui-masthead .cui-application-title .cui-application-subname {
+	color: #eee;
+}
+
+#custom .cui-start-screen-copyright, 
+#custom .cui-start-screen-application-name,
+#custom .cui-theme-blue {
+    color: #FFFFFF;
+}
+
+#custom .cui-theme-blue {
+    background-color: #041E42;
+}
+
+#custom .drop-element.drop-theme-cui-menu .drop-content li:hover, 
+#custom .drop-element.drop-theme-cui-menu .drop-content li:focus {
+    background: none repeat scroll 0 0 #041E42;
+}
+
+#custom .helptooltip {
+    color: #041E42;
+}
+
+@media only screen and (max-width: 1200px) {
+    #custom .cui-masthead .cui-masthead-controls.cui-masthead-drawer-showing .cui-button.cui-button-type-default {
+        color: #333;
+    }
+
+    #custom .cui-masthead .cui-masthead-controls.horizontal-list .cui-drop-down-button:hover, 
+    #custom .cui-masthead .cui-masthead-controls.horizontal-list .cui-button:hover {
+        background-color: #01234d;
+    }
+}
+
+/*
+Status/Error pages
+*/
+.statuspage,
+.errorpage {
+    padding-top: 30px;
+}
+
+.statuspage h2,
+.errorpage h2 {
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+
+/*
+Login page
+*/
+html { min-height: 100%; position: relative; }
+.login { overflow: auto; font-size: 10pt; height: 100%; background-color: #041E42; color: #FFFFFF; margin: 0 0 50px; } /* 50px is the footer height */
+.login a { color: #FFFFFF; }
+
+.loginLogo { background-image: url('companylogo.png'); 
+	background-repeat: no-repeat; 
+	height: 160px;
+	width: 160px; 
+	z-index: 15;
+	margin: 60px auto 10px auto; 
+}
+.loginTitle { font-family: 'Museo Sans Webfont', 'Trebuchet MS', sans-serif; 
+	font-size: 36px; 
+	text-align: center; 
+	width: 100%; 
+	margin-bottom: 30px; 
+	overflow: hidden;
+}
+.loginTitle::before { content: 'UTEP Single Sign On'; }
+
+#errorMessageDiv, #socialAuthMessageDiv { font-size: 11px; max-width: 684px; text-align: center; margin: 40px auto 30px auto; padding: 20px 30px; border-top: 1px solid; border-bottom: 1px solid; }
+
+.login input[type='text'], .login input[type='password'] { width: 230px; margin: 5px; }
+
+.login .footer { position: absolute; left: 0; bottom: 0; height: 30px; margin-top: 20px; width: 100%; }
+
+.login .modal { color: #282828; display: none; top: 100px; left: 50%; margin-left: -295px; width: 550px; padding: 20px; background-color: #fff; position: absolute; z-index: 101; -moz-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3); -box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3); box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3); }
+.login .modalBG { position: fixed; height: 100%; width: 100%; background: #d6d6d6; background: rgba(214,214,214,.8); z-index: 100; display: none; top: 0; left: 0;  }
+.login .modal h2 { font-size:24px; font-weight:normal; padding-bottom:10px; margin-top:0; }
+.login .modal p { margin-left: 15px; }
+
+.login #loginSubmitButton,
+.login #secondaryLoginSubmitButton {
+    margin-top:20px;
+}
+
+.login .waitIndicator { 
+    display: none; margin: 24px auto; 
+    background-image: url('/CloudAccessManager/RPSTS/content/CUI/img/spinner.white.png'); 
+    -webkit-animation: spin 1.4s infinite linear;
+    -moz-animation: spin 1.4s infinite linear;
+    animation: spin 1.4s infinite linear;
+    background-repeat: no-repeat;
+    background-size: contain; width: 48px; height: 48px; background-repeat: no-repeat;
+}
+
+/*
+Caching for loading image
+*/
+
+.login .footer {
+    background: url(/CloudAccessManager/RPSTS/content/CUI/img/spinner.blue.png) no-repeat -9999px -9999px;
+}
+
+.login .fineprint {
+    background: url(/CloudAccessManager/RPSTS/content/CUI/img/spinner.black.png) no-repeat -9999px -9999px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    transform: rotate(359deg); 
+  } 
+}
+
+@-moz-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
